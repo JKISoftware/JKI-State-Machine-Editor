@@ -11,10 +11,16 @@ You can download and install JKI State Machine Editor with VI Package Manager.
 
 ## Usage
 
-Toolbar makes it easy to navigate the frames and perform common operations.
+### Key Features:
 
-Navigate the JKI State Machine frames by right-clicking on a state string.
-
+* Select an item in the tree to make that frame visible in the Case/Event Structure of the JKI SM
+* Navigating the frames in the JKI State Machine will select that item in the Editor's tree view
+* Click the *Back* and *Forward* buttons to navigate the history (and *Clear History* button to clear)
+* Drag and drop frames in the tree to reorder them (drag a category devider to move the whole category)
+* Right-click on items in the tree-view to rename, duplicate, delete, etc.
+  * Note that **renaming a frame will rename all instances of it in the JKI State Machine**.
+* Right-click on a state string and choose Goto State Frame to jump to that frame of the JKI SM.
+* Navigate the JKI State Machine frames by right-clicking on a state string.
 ![2017-05-05_18-13-05](https://cloud.githubusercontent.com/assets/381432/25768708/9db4b088-31be-11e7-8616-e2250ec3e8e4.png)
 
 ### Launching the JKI SM Editor UI
@@ -28,15 +34,8 @@ Navigate the JKI State Machine frames by right-clicking on a state string.
 1. Select a Case Structure or Event Structure
 2. Press Control+Space then Control+J
 
-### Key Features:
-
-- Select an item in the tree to make that frame visible
-- Click the *Back* and *Forward* buttons to navigate the history (and *Clear History* button to clear)
-- Drag and drop frames to reorder them
-- Right-click on items in the tree-view to rename, duplicate, delete, etc.
-- Right-click on a state string and choose Goto State Frame to jump to that frame of the JKI SM.
-
-Important Note: You can open separate instances of the JKI State Machine Editor for both the Case Structure and Event Structure of the JKI State Machine. For example, right-clicking on the Event Structure or Case Structure and selecting *JKI State Machine Helper...* will open JKI SM Editor associated with the Event Structure or Case Structure, respectively.
+### Important Note
+You can open separate instances of the JKI State Machine Editor for both the Case Structure and Event Structure of the JKI State Machine. For example, right-clicking on the Event Structure or Case Structure and selecting *JKI State Machine Helper...* will open JKI SM Editor associated with the Event Structure or Case Structure, respectively.
 
 ## Support
 
