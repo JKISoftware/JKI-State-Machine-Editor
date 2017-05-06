@@ -17,18 +17,18 @@ Navigate the JKI State Machine frames by right-clicking on a state string.
 
 ![2017-05-05_18-13-05](https://cloud.githubusercontent.com/assets/381432/25768708/9db4b088-31be-11e7-8616-e2250ec3e8e4.png)
 
-### Detailed Usage
+### Launching the JKI SM Editor UI
 
-Launch it via the right-click:
+#### Launch it via the right-click:
 
 1. Inside of a JKI State Machine, right-click on a State String, Case Structure, or Event Structure and select *JKI State Machine Helper...*
 
-Launch it via QuickDrop:
+#### Launch it via QuickDrop:
 
 1. Select a Case Structure or Event Structure
 2. Press Control+Space then Control+J
 
-Key Features:
+### Key Features:
 
 - Select an item in the tree to make that frame visible
 - Click the *Back* and *Forward* buttons to navigate the history (and *Clear History* button to clear)
@@ -36,9 +36,7 @@ Key Features:
 - Right-click on items in the tree-view to rename, duplicate, delete, etc.
 - Right-click on a state string and choose Goto State Frame to jump to that frame of the JKI SM.
 
-Important Note:
-
-- You can open separate instances of the JKI State Machine Editor open for both the Case Structure and Event Structure of the JKI State Machine. For example, right-clicking on the Event Structure or Case Structure and selecting *JKI State Machine Helper...* will open JKI SM Editor associated with the Event Structure or Case Structure, respectively.
+Important Note: You can open separate instances of the JKI State Machine Editor for both the Case Structure and Event Structure of the JKI State Machine. For example, right-clicking on the Event Structure or Case Structure and selecting *JKI State Machine Helper...* will open JKI SM Editor associated with the Event Structure or Case Structure, respectively.
 
 ## Support
 
