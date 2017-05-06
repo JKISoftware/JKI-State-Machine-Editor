@@ -1,4 +1,5 @@
-# JKI State Machine Editor
+![sm-nxg 1](https://cloud.githubusercontent.com/assets/381432/25776113/fb27a44a-3269-11e7-93ad-844b1122126b.png)
+
 The JKI State Machine Editor is a tool to make it easy for developers to use the JKI State Machine. It makes common tasks extremely easy to perform and exposes the user to more “advanced” (non-obvious) JKI SM features (because they are first-class features of the Helper), as well as JKI SM best practices (since the helper can enforce them: left-justification of strings, avoiding chaining states, etc.).
 
 ## Get the JKI State Machine Editor
