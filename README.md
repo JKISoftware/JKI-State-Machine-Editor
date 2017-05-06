@@ -1,14 +1,14 @@
 # JKI State Machine Editor
 The JKI State Machine Editor is a tool to make it easy for developers to use the JKI State Machine. It makes common tasks extremely easy to perform and exposes the user to more “advanced” (non-obvious) JKI SM features (because they are first-class features of the Helper), as well as JKI SM best practices (since the helper can enforce them: left-justification of strings, avoiding chaining states, etc.).
 
-## Quick Tutorial Video
-[![JKI State Machine Editor - Quick Tutorial](https://img.youtube.com/vi/5H0lrLXZoq8/0.jpg)](https://youtu.be/5H0lrLXZoq8 "JKI State Machine Editor - Quick Tutorial")
-
 ## Get the JKI State Machine Editor
 
 You can download and install JKI State Machine Editor with VI Package Manager.
 
 [Get JKI State Machine Editor](http://vipm.jki.net/#!/package/jki_state_machine_editor)
+
+## Quick Tutorial Video
+[![JKI State Machine Editor - Quick Tutorial](https://img.youtube.com/vi/5H0lrLXZoq8/0.jpg)](https://youtu.be/5H0lrLXZoq8 "JKI State Machine Editor - Quick Tutorial")
 
 ## Usage
 
