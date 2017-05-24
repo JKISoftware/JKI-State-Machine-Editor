@@ -338,9 +338,6 @@
 			<Item Name="Mass Compile - UI - .vi" Type="VI" URL="../source/Mass Compile/Mass Compile - UI - .vi"/>
 			<Item Name="Proxy - Dist Set LLB Caching.vi" Type="VI" URL="../source/Mass Compile/Proxy - Dist Set LLB Caching.vi"/>
 			<Item Name="String Constant - One Line State String Wired to Add States.vi" Type="VI" URL="../source/JKI State Machine API/tests/Test is String Constant a State Constant/String Constant - One Line State String Wired to Add States.vi"/>
-			<Item Name="Is String Constant a State Constant__JKI_State_Machine_Helper.vi" Type="VI" URL="../../dialog/QuickDrop/plugins/JKI State Machine API/source/Support/Is String Constant a State Constant__JKI_State_Machine_Helper.vi"/>
-			<Item Name="Create (From State String Constant)__JKI_State_Machine_Helper.vi" Type="VI" URL="../../dialog/QuickDrop/plugins/JKI State Machine API/source/JKI SM/Create (From State String Constant)__JKI_State_Machine_Helper.vi"/>
-			<Item Name="Show State State__JKI_State_Machine_Helper.vi" Type="VI" URL="../../dialog/QuickDrop/plugins/JKI State Machine API/source/JKI SM/Show State State__JKI_State_Machine_Helper.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
