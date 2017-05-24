@@ -16,3 +16,4 @@
 *.lvlps
 *.vip
 *.db
+.DS_Store
