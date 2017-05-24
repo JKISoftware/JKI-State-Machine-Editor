@@ -28,8 +28,11 @@
 	<Item Name="Test Add New State.vi" Type="VI" URL="../Test Add New State.vi"/>
 	<Item Name="Test Get VI Reference.vi" Type="VI" URL="../Test Get VI Reference.vi"/>
 	<Item Name="Test Has Events.vi" Type="VI" URL="../Test Has Events.vi"/>
+	<Item Name="Test is String Constant a State Constant.vi" Type="VI" URL="../Test is String Constant a State Constant.vi"/>
 	<Item Name="Test List All Case Frames.vi" Type="VI" URL="../Test List All Case Frames.vi"/>
 	<Item Name="Test List All Categories.vi" Type="VI" URL="../Test List All Categories.vi"/>
+	<Item Name="Test One Line State String Unwired.vi" Type="VI" URL="../Test is String Constant a State Constant/Test One Line State String Unwired.vi"/>
+	<Item Name="Test One Line State String Wired to Add States.vi" Type="VI" URL="../Test is String Constant a State Constant/Test One Line State String Wired to Add States.vi"/>
 	<Item Name="Test Rename State.vi" Type="VI" URL="../Test Rename State.vi"/>
 	<Item Name="Test TEMPLATE.vi" Type="VI" URL="../Test TEMPLATE.vi"/>
 </Library>

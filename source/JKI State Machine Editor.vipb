@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-05-05 17:42:51" Modified_Date="2017-05-22 14:16:36" Creator="Jim Kring" Comments="" ID="c6cb543936bb2bd32e81bce81df5c008">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-05-05 17:42:51" Modified_Date="2017-05-24 10:56:18" Creator="Jim Kring" Comments="" ID="aec833baaf75d384c7231fe36f0c448d">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2013.0.2.68</Library_Version>
+    <Library_Version>2013.0.3.70</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -63,7 +63,7 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
       <Copyright>Copyright (c) 2017, JKI, jcarmody</Copyright>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Editor</URL>
-      <Release_Notes>- Fixed Issue #5: Missing "Is Child Path" VI</Release_Notes>
+      <Release_Notes>- Fixed Issue #6: Change right-click item name to "JKI State Machine Editor..." (from "Helper")</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
