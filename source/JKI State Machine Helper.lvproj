@@ -17,16 +17,13 @@
 		<Item Name="PopupMenu Plugin" Type="Folder" URL="../source/PopupMenu Plugin">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="JKI State Machine API" Type="Folder" URL="../source/JKI State Machine API">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="JKI State Machine Helper - VI Tree.vi" Type="VI" URL="../source/JKI State Machine Helper - VI Tree.vi"/>
 		<Item Name="Test JKI SM Helper.vi" Type="VI" URL="../Test JKI SM Helper.vi"/>
-		<Item Name="JKI State Machine API.lvproj" Type="Document" URL="../source/JKI State Machine API/JKI State Machine API.lvproj"/>
-		<Item Name="Test State Name Parser.vi" Type="VI" URL="../source/JKI State Machine API/tests/Test State Name Parser.vi"/>
-		<Item Name="Get State from Mouse Coords over State String.vi" Type="VI" URL="../source/JKI State Machine API/source/Support/Get State from Mouse Coords over State String.vi"/>
 		<Item Name="JKI State Machine Editor.vipc" Type="Document" URL="../JKI State Machine Editor.vipc"/>
 		<Item Name="JKI State Machine Editor.vipb" Type="Document" URL="../JKI State Machine Editor.vipb"/>
-		<Item Name="String Constant - One Line State String Unwired.vi" Type="VI" URL="../source/JKI State Machine API/tests/Test is String Constant a State Constant/String Constant - One Line State String Unwired.vi"/>
-		<Item Name="Get StringConstant from VI.vi" Type="VI" URL="../source/JKI State Machine API/tests/Test is String Constant a State Constant/Get StringConstant from VI.vi"/>
-		<Item Name="Test Simple String.vi" Type="VI" URL="../source/JKI State Machine API/tests/Test Simple String.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
@@ -328,16 +325,16 @@
 				<Item Name="Delete Elements from 2D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (LVObject)__ogtk.vi"/>
 				<Item Name="Application Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Application Directory__ogtk.vi"/>
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
+				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
+				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
+				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
+				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
 			</Item>
-			<Item Name="JKI State Machine API.lvlib" Type="Library" URL="../source/JKI State Machine API/source/JKI State Machine API.lvlib"/>
-			<Item Name="First Test.vi" Type="VI" URL="../source/JKI State Machine API/tests/First Test.vi"/>
-			<Item Name="JKI State Machine API - Tests.lvlib" Type="Library" URL="../source/JKI State Machine API/tests/JKI State Machine API - Tests.lvlib"/>
-			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 			<Item Name="Is Child Path -- JKI State Machine Editor.vi" Type="VI" URL="../source/Mass Compile/Is Child Path -- JKI State Machine Editor.vi"/>
 			<Item Name="Mass Compile LabVIEW Tool.vi" Type="VI" URL="../source/Mass Compile/Mass Compile LabVIEW Tool.vi"/>
 			<Item Name="Mass Compile - UI - .vi" Type="VI" URL="../source/Mass Compile/Mass Compile - UI - .vi"/>
 			<Item Name="Proxy - Dist Set LLB Caching.vi" Type="VI" URL="../source/Mass Compile/Proxy - Dist Set LLB Caching.vi"/>
-			<Item Name="String Constant - One Line State String Wired to Add States.vi" Type="VI" URL="../source/JKI State Machine API/tests/Test is String Constant a State Constant/String Constant - One Line State String Wired to Add States.vi"/>
+			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

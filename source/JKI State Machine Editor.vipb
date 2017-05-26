@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-05-05 17:42:51" Modified_Date="2017-05-24 12:04:14" Creator="Jim Kring" Comments="" ID="52352a7c2809390eb4d10e3d9d9b4b47">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-05-05 17:42:51" Modified_Date="2017-05-26 16:06:08" Creator="Jim Kring" Comments="" ID="cee4b15a6a37dbd4dc5bd68e0fa7e1ae">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2013.0.3.72</Library_Version>
+    <Library_Version>2013.0.3.73</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
