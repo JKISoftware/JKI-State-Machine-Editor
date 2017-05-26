@@ -15,7 +15,7 @@ You can download and install JKI State Machine Editor with VI Package Manager.
 
 ### Key Features:
 
-** IMPORTANT: Right-click Menu Only Works for LabVIEW 2015 or newer, when the [Shortcut Menu Plugins](http://zone.ni.com/reference/en-XX/help/371361M-01/lvhowto/shortcutmenuplugins_intro/) feature was first introduced to LabVIEW. **
+**IMPORTANT: Right-click Menu Only Works for LabVIEW 2015 or newer, when the [Shortcut Menu Plugins](http://zone.ni.com/reference/en-XX/help/371361M-01/lvhowto/shortcutmenuplugins_intro/) feature was first introduced to LabVIEW.**
 
 * Select an item in the tree to make that frame visible in the Case/Event Structure of the JKI SM
 * Navigating the frames in the JKI State Machine will select that item in the Editor's tree view
