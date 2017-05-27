@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-05-05 17:42:51" Modified_Date="2017-05-26 17:27:29" Creator="Jim Kring" Comments="" ID="2827a02803bffae23fd24dfd3e63e8b7">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-05-05 17:42:51" Modified_Date="2017-05-26 18:17:52" Creator="Jim Kring" Comments="" ID="c9063eed2e9fbfa6233e034ee56862bb">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2013.0.5.77</Library_Version>
+    <Library_Version>2013.0.5.81</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -63,7 +63,9 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
       <Copyright>Copyright (c) 2017, JKI, jcarmody</Copyright>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Editor</URL>
-      <Release_Notes>- Fixed Issue #8: No automatic installation of add-ons dependencies along with editor installation.</Release_Notes>
+      <Release_Notes>- Fixed Issue #8 - No automatic installation of add-ons dependencies along with editor installation.
+- Fixed Issue #10 - Should defer panel updates when refreshing Tree periodically
+- Fixed Issue #12 - F2 for Rename frame should work (only shows ":" instead of "Cat: State")</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
