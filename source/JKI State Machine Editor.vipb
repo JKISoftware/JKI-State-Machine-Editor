@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-05-05 17:42:51" Modified_Date="2017-05-26 16:48:25" Creator="Jim Kring" Comments="" ID="5993c2f413a12e1ffb71d2a09707f347">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-05-05 17:42:51" Modified_Date="2017-05-26 17:27:29" Creator="Jim Kring" Comments="" ID="2827a02803bffae23fd24dfd3e63e8b7">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2013.0.4.74</Library_Version>
+    <Library_Version>2013.0.5.77</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -18,14 +18,14 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 2.0.0</External_Dependencies>
-      <External_Dependencies>oglib_appcontrol &gt;= 4.1.0.7</External_Dependencies>
-      <External_Dependencies>oglib_comparison &gt;= 4.0.0.3</External_Dependencies>
-      <External_Dependencies>oglib_string &gt;= 4.1.0.12</External_Dependencies>
       <Package_Conflicts>jcarmody_lib_caseselect_(quick_drop_plugin) &gt;=0.0</Package_Conflicts>
       <Package_Conflicts>jki_state_machine_helper &gt;=0.0</Package_Conflicts>
       <Direct_Dependencies>jki_lib_state_machine-2.0.0-1</Direct_Dependencies>
       <Direct_Dependencies>oglib_appcontrol-4.1.0.7</Direct_Dependencies>
+      <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
       <Direct_Dependencies>oglib_comparison-4.0.0.3</Direct_Dependencies>
+      <Direct_Dependencies>oglib_error-4.2.0.23</Direct_Dependencies>
+      <Direct_Dependencies>oglib_file-4.0.1.22</Direct_Dependencies>
       <Direct_Dependencies>oglib_string-4.1.0.12</Direct_Dependencies>
       <Direct_Dependencies>oglib_time-4.0.0.2</Direct_Dependencies>
     </Package_Dependencies>
@@ -63,7 +63,7 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
       <Copyright>Copyright (c) 2017, JKI, jcarmody</Copyright>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Editor</URL>
-      <Release_Notes>- Fixed Issue #9: Mass compile (by VIPM) doesn't seem to actually save all the VIs</Release_Notes>
+      <Release_Notes>- Fixed Issue #8: No automatic installation of add-ons dependencies along with editor installation.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>

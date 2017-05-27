@@ -3,3 +3,4 @@
 *.vip
 *.db
 .DS_Store
+source/.source/
