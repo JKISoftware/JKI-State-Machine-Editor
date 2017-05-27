@@ -6,7 +6,7 @@ The JKI State Machine Editor is a tool to make it easy for developers to use the
 
 You can download and install JKI State Machine Editor with VI Package Manager.
 
-[Get JKI State Machine Editor](http://vipm.jki.net/#!/package/jki_state_machine_editor) (direct download: [jki_state_machine_editor-2013.0.0.61.vip](https://github.com/JKISoftware/JKI-State-Machine-Editor/releases/download/2013.0/jki_state_machine_editor-2013.0.0.61.vip))
+[Get JKI State Machine Editor](http://vipm.jki.net/#!/package/jki_state_machine_editor)
 
 ## Quick Tutorial Video
 [![JKI State Machine Editor - Quick Tutorial](https://img.youtube.com/vi/5H0lrLXZoq8/0.jpg)](https://youtu.be/5H0lrLXZoq8 "JKI State Machine Editor - Quick Tutorial")
