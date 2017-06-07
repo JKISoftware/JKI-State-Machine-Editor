@@ -1,12 +1,12 @@
 ![sm-nxg 1](https://cloud.githubusercontent.com/assets/381432/25776113/fb27a44a-3269-11e7-93ad-844b1122126b.png)
 
-The JKI State Machine Editor is a tool to make it easy for developers to use the JKI State Machine. It makes common tasks extremely easy to perform and exposes the user to more “advanced” (non-obvious) JKI SM features (because they are first-class features of the Helper), as well as JKI SM best practices (since the helper can enforce them: left-justification of strings, avoiding chaining states, etc.).
+The JKI State Machine Editor is a tool to make it easy for developers to use the JKI State Machine. It makes common tasks extremely easy to perform and exposes the user to more “advanced” (non-obvious) JKI SM features (because they are first-class features of the Editor), as well as JKI SM best practices (since the helper can enforce them: left-justification of strings, avoiding chaining states, etc.).
 
 ## Get the JKI State Machine Editor
 
 You can download and install JKI State Machine Editor with VI Package Manager.
 
-[Get JKI State Machine Editor](http://vipm.jki.net/#!/package/jki_state_machine_editor) (direct download: [jki_state_machine_editor-2013.0.0.61.vip](https://github.com/JKISoftware/JKI-State-Machine-Editor/releases/download/2013.0/jki_state_machine_editor-2013.0.0.61.vip))
+[Get JKI State Machine Editor](http://vipm.jki.net/#!/package/jki_state_machine_editor)
 
 ## Quick Tutorial Video
 [![JKI State Machine Editor - Quick Tutorial](https://img.youtube.com/vi/5H0lrLXZoq8/0.jpg)](https://youtu.be/5H0lrLXZoq8 "JKI State Machine Editor - Quick Tutorial")
@@ -31,7 +31,7 @@ You can download and install JKI State Machine Editor with VI Package Manager.
 
 #### Launch it via the right-click:
 
-1. Inside of a JKI State Machine, right-click on a State String, Case Structure, or Event Structure and select *JKI State Machine Helper...*
+1. Inside of a JKI State Machine, right-click on a State String, Case Structure, or Event Structure and select *JKI State Machine Editor...*
 
 #### Launch it via QuickDrop:
 
@@ -39,7 +39,7 @@ You can download and install JKI State Machine Editor with VI Package Manager.
 2. Press Control+Space then Control+J
 
 ### Important Note
-You can open separate instances of the JKI State Machine Editor for both the Case Structure and Event Structure of the JKI State Machine. For example, right-clicking on the Event Structure or Case Structure and selecting *JKI State Machine Helper...* will open JKI SM Editor associated with the Event Structure or Case Structure, respectively.
+You can open separate instances of the JKI State Machine Editor for both the Case Structure and Event Structure of the JKI State Machine. For example, right-clicking on the Event Structure or Case Structure and selecting *JKI State Machine Editor...* will open JKI SM Editor associated with the Event Structure or Case Structure, respectively.
 
 ## Support
 
