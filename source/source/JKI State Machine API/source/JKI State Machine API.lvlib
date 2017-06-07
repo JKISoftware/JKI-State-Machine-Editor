@@ -8,6 +8,7 @@
 		<Item Name="Get State Constant States.vi" Type="VI" URL="../Support/Get State Constant States.vi"/>
 		<Item Name="Is String Constant a State Constant.vi" Type="VI" URL="../Support/Is String Constant a State Constant.vi"/>
 	</Item>
+	<Item Name="Is String Data Source Terminal Connected to Add States SubVI.vi" Type="VI" URL="../Support/Is String Data Source Terminal Connected to Add States SubVI.vi"/>
 	<Item Name="JKI SM.lvclass" Type="LVClass" URL="../JKI SM/JKI SM.lvclass"/>
 	<Item Name="VI Tree - JKI State Machine API.vi" Type="VI" URL="../../VI Tree - JKI State Machine API.vi"/>
 </Library>
