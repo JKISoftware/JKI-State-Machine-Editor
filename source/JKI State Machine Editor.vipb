@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-05-05 17:42:51" Modified_Date="2017-06-08 07:12:21" Creator="Jim Kring" Comments="" ID="2aa5cdcdc8e9f7cbd2bc998fba0e3127">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-05-05 17:42:51" Modified_Date="2017-06-09 12:37:38" Creator="Jim Kring" Comments="" ID="67e4d9b2555bdf5b3b7a882856af4c56">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2013.0.7.91</Library_Version>
+    <Library_Version>2013.0.8.92</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -63,7 +63,7 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
       <Copyright>Copyright (c) 2017, JKI, jcarmody</Copyright>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Editor</URL>
-      <Release_Notes>- Fixed Issue #13 - LabVIEW Memory Full after running the editor for a whole day #13 (thanks @digiajay)</Release_Notes>
+      <Release_Notes>- Fixed Issue #15: Delete key doesn't work (thanks for reporting this @joerghampel)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
