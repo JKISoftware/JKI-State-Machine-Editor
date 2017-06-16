@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-05-05 17:42:51" Modified_Date="2017-06-09 12:40:21" Creator="Jim Kring" Comments="" ID="d175461f40b8c1f5e573e512ddc47905">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-05-05 17:42:51" Modified_Date="2017-06-16 12:13:39" Creator="Jim Kring" Comments="" ID="bcc298d6405cee55227aae1678e5c9e8">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2013.0.8.93</Library_Version>
+    <Library_Version>2013.0.9.95</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -26,6 +26,7 @@
       <Direct_Dependencies>oglib_comparison-4.0.0.3</Direct_Dependencies>
       <Direct_Dependencies>oglib_error-4.2.0.23</Direct_Dependencies>
       <Direct_Dependencies>oglib_file-4.0.1.22</Direct_Dependencies>
+      <Direct_Dependencies>oglib_lvdata-4.2.0.21</Direct_Dependencies>
       <Direct_Dependencies>oglib_string-4.1.0.12</Direct_Dependencies>
       <Direct_Dependencies>oglib_time-4.0.0.2</Direct_Dependencies>
     </Package_Dependencies>
@@ -63,7 +64,7 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
       <Copyright>Copyright (c) 2017, JKI, jcarmody</Copyright>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Editor</URL>
-      <Release_Notes>- Fixed Issue #15: Delete key doesn't work (thanks for reporting this @joerghampel)</Release_Notes>
+      <Release_Notes>- Fixed Issue #19: OpenG LabVIEW Data dependency should be built in (JKI SM Editor is broken unless package is installed)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
