@@ -24,10 +24,7 @@
 		<Item Name="Test JKI SM Helper.vi" Type="VI" URL="../Test JKI SM Helper.vi"/>
 		<Item Name="JKI State Machine Editor.vipc" Type="Document" URL="../JKI State Machine Editor.vipc"/>
 		<Item Name="JKI State Machine Editor.vipb" Type="Document" URL="../JKI State Machine Editor.vipb"/>
-		<Item Name="Test Find Callers - NEEDS CLEANUP.vi" Type="VI" URL="../source/JKI State Machine API/tests/Test Find Callers - NEEDS CLEANUP.vi"/>
-		<Item Name="String Constant - Inside JKI SM.vi" Type="VI" URL="../source/JKI State Machine API/tests/Test is String Constant a State Constant/String Constant - Inside JKI SM.vi"/>
-		<Item Name="String Constant - Inside JKI SM Event Structure.vi" Type="VI" URL="../source/JKI State Machine API/tests/Test is String Constant a State Constant/String Constant - Inside JKI SM Event Structure.vi"/>
-		<Item Name="State Callers.vi" Type="VI" URL="../source/QuickDrop Plugin/_JKI State Machine Helper/State Callers.vi"/>
+		<Item Name="Open Search Results Dialog.vi" Type="VI" URL="../source/QuickDrop Plugin/_JKI State Machine Helper/Open Search Results Dialog.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
