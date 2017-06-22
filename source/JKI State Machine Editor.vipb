@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-05-05 17:42:51" Modified_Date="2017-06-21 18:23:32" Creator="Jim Kring" Comments="" ID="11053b4ada76f7e653b08f64709d2f84">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-05-05 17:42:51" Modified_Date="2017-06-21 23:01:35" Creator="Jim Kring" Comments="" ID="2667145b3b621b57dbc71f9acf9f3d4e">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2013.0.9.104</Library_Version>
+    <Library_Version>2013.1.0.108</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -64,7 +64,10 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
       <Copyright>Copyright (c) 2017, JKI, jcarmody</Copyright>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Editor</URL>
-      <Release_Notes>- Fixed Issue #19: OpenG LabVIEW Data dependency should be built in (JKI SM Editor is broken unless package is installed)</Release_Notes>
+      <Release_Notes>New Feature: *Find Callers* of State
+- To use, press Ctrl+F in tree view, right-click in tree view, or right-click on state string
+- In the search results dialog, click a state to highlight the caller state string
+- Ctrl+G to step forward through results, Ctrl+Shift+G to step backward through results</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
