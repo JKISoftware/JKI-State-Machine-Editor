@@ -68,6 +68,15 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1074266624</Property>
 			</Item>
+			<Item Name="Build Frame Name from Category and State.vi" Type="VI" URL="../Support/Build Frame Name from Category and State.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#W!!!!"A!%!!!!&amp;%!Q`````QJ'=G&amp;N:3"/97VF!!!=1#%76X*B=#"J&lt;C"2&gt;7^U:8-`)#B55F6&amp;+1!!&amp;%!Q`````QJ4&gt;'&amp;U:3"/97VF!!!31$$`````#%.B&gt;'6H&lt;X*Z!!"5!0!!$!!!!!!!!!!"!!!!!!!!!!)!!!!!!!-!"!)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!)1!!!"%A!!!!!"!!5!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1074266626</Property>
+			</Item>
 		</Item>
 		<Item Name="Has Events.vi" Type="VI" URL="../Has Events.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;I!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"R!)2:3:7&gt;J=X2F=G6E)':P=C"&amp;&gt;G6O&gt;(-`!!"#1(!!(A!!,"N+3UEA5X2B&gt;'5A47&amp;D;'FO:3""5%EO&lt;(:M;7)/3EN*)&amp;..,GRW9WRB=X-!!!J+3UEA5UUA&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%"!=!!?!!!M'UJ,33"4&gt;'&amp;U:3".97.I;7ZF)%&amp;133ZM&gt;GRJ9AZ+3UEA5UUO&lt;(:D&lt;'&amp;T=Q!!#5J,33"443"J&lt;A"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
@@ -270,15 +279,6 @@
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
-			</Item>
-			<Item Name="Build Frame Name from Category and State.vi" Type="VI" URL="../Support/Build Frame Name from Category and State.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#W!!!!"A!%!!!!&amp;%!Q`````QJ'=G&amp;N:3"/97VF!!!=1#%76X*B=#"J&lt;C"2&gt;7^U:8-`)#B55F6&amp;+1!!&amp;%!Q`````QJ4&gt;'&amp;U:3"/97VF!!!31$$`````#%.B&gt;'6H&lt;X*Z!!"5!0!!$!!!!!!!!!!"!!!!!!!!!!)!!!!!!!-!"!)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!)1!!!"%A!!!!!"!!5!!!!!</Property>
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1107821058</Property>
 			</Item>
 		</Item>
 		<Item Name="Structure Traversal" Type="Folder">
