@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-06-25 16:59:02" Modified_Date="2017-06-25 16:59:02" Creator="Jim Kring" Comments="" ID="7f36364d23b6988ad4e44890f290fe65">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-06-25 16:59:02" Modified_Date="2017-06-25 19:42:10" Creator="Jim Kring" Comments="" ID="9dc6c1ddd86e9dec988539ecd7548f59">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2013.1.1.125</Library_Version>
+    <Library_Version>2013.1.1.127</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -17,8 +17,26 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <External_Dependencies>jki_lib_state_machine &gt;= 2.0.0</External_Dependencies>
+      <External_Dependencies>oglib_appcontrol &gt;= 4.1.0.7</External_Dependencies>
+      <External_Dependencies>oglib_array &gt;= 4.1.1.14</External_Dependencies>
+      <External_Dependencies>oglib_comparison &gt;= 4.0.0.3</External_Dependencies>
+      <External_Dependencies>oglib_error &gt;= 4.2.0.23</External_Dependencies>
+      <External_Dependencies>oglib_file &gt;= 4.0.1.22</External_Dependencies>
+      <External_Dependencies>oglib_lvdata &gt;= 4.2.0.21</External_Dependencies>
+      <External_Dependencies>oglib_string &gt;= 4.1.0.12</External_Dependencies>
+      <External_Dependencies>oglib_time &gt;= 4.0.0.2</External_Dependencies>
       <Package_Conflicts>jcarmody_lib_caseselect_(quick_drop_plugin) &gt;=0.0</Package_Conflicts>
       <Package_Conflicts>jki_state_machine_helper &gt;=0.0</Package_Conflicts>
+      <Direct_Dependencies>jki_lib_state_machine-2.0.0-1</Direct_Dependencies>
+      <Direct_Dependencies>oglib_appcontrol-4.1.0.7</Direct_Dependencies>
+      <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
+      <Direct_Dependencies>oglib_comparison-4.0.0.3</Direct_Dependencies>
+      <Direct_Dependencies>oglib_error-4.2.0.23</Direct_Dependencies>
+      <Direct_Dependencies>oglib_file-4.0.1.22</Direct_Dependencies>
+      <Direct_Dependencies>oglib_lvdata-4.2.0.21</Direct_Dependencies>
+      <Direct_Dependencies>oglib_string-4.1.0.12</Direct_Dependencies>
+      <Direct_Dependencies>oglib_time-4.0.0.2</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
