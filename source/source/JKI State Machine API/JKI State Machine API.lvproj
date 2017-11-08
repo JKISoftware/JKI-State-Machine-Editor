@@ -12,14 +12,13 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="JKI State Machine API - Tests.lvlib" Type="Library" URL="../tests/JKI State Machine API - Tests.lvlib"/>
+			<Item Name="TEST JKI State Machine API.lvlib" Type="Library" URL="../tests/TEST JKI State Machine API.lvlib"/>
 		</Item>
 		<Item Name="JKI State Machine API.lvlib" Type="Library" URL="../source/JKI State Machine API.lvlib"/>
-		<Item Name="JKI State Machine API.vipc" Type="Document" URL="../JKI State Machine API.vipc"/>
 		<Item Name="JKI State Machine Helper - VI Tree.vi" Type="VI" URL="../../JKI State Machine Helper - VI Tree.vi"/>
-		<Item Name="String Constant - One Line State String Wired to Add States.vi" Type="VI" URL="../tests/Test is String Constant a State Constant/String Constant - One Line State String Wired to Add States.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
+				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
 				<Item Name="1D Boolean Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D Boolean Array Changed__ogtk.vi"/>
 				<Item Name="1D CDB Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D CDB Array Changed__ogtk.vi"/>
 				<Item Name="1D CSG Array Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/1D CSG Array Changed__ogtk.vi"/>
@@ -63,6 +62,7 @@
 				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
 				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
 				<Item Name="CDB Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/CDB Changed__ogtk.vi"/>
+				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
 				<Item Name="Close Generic Object Refnum (Array VI)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Close Generic Object Refnum (Array VI)__ogtk.vi"/>
 				<Item Name="Close Generic Object Refnum (Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Close Generic Object Refnum (Array)__ogtk.vi"/>
 				<Item Name="Close Generic Object Refnum (Scalar VI)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Close Generic Object Refnum (Scalar VI)__ogtk.vi"/>
@@ -101,6 +101,7 @@
 				<Item Name="Convert EOLs (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Convert EOLs (String)__ogtk.vi"/>
 				<Item Name="Convert EOLs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Convert EOLs__ogtk.vi"/>
 				<Item Name="CSG Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/CSG Changed__ogtk.vi"/>
+				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Reference__ogtk.vi"/>
 				<Item Name="CXT Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/CXT Changed__ogtk.vi"/>
@@ -146,7 +147,13 @@
 				<Item Name="Delete Elements from 2D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (Variant)__ogtk.vi"/>
 				<Item Name="Delete Elements from Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from Array__ogtk.vi"/>
 				<Item Name="EXT Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/EXT Changed__ogtk.vi"/>
+				<Item Name="Filter Error Codes (Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Array)__ogtk.vi"/>
+				<Item Name="Filter Error Codes (Scalar)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Scalar)__ogtk.vi"/>
+				<Item Name="Filter Error Codes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes__ogtk.vi"/>
+				<Item Name="Filtered Error Details - Cluster__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filtered Error Details - Cluster__ogtk.ctl"/>
 				<Item Name="Fit VI window to Largest Dec__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Fit VI window to Largest Dec__ogtk.vi"/>
+				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
+				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
 				<Item Name="I8 Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/I8 Changed__ogtk.vi"/>
 				<Item Name="I16 Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/I16 Changed__ogtk.vi"/>
 				<Item Name="I32 Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/I32 Changed__ogtk.vi"/>
@@ -250,6 +257,20 @@
 				<Item Name="Sort Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort Array__ogtk.vi"/>
 				<Item Name="String Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/String Changed__ogtk.vi"/>
 				<Item Name="String to 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to 1D Array__ogtk.vi"/>
+				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
+				<Item Name="Strip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Traditional__ogtk.vi"/>
+				<Item Name="Strip Path Extension - 1D Array of Paths__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Paths__ogtk.vi"/>
+				<Item Name="Strip Path Extension - 1D Array of Strings__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Strings__ogtk.vi"/>
+				<Item Name="Strip Path Extension - Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - Path__ogtk.vi"/>
+				<Item Name="Strip Path Extension - String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - String__ogtk.vi"/>
+				<Item Name="Strip Path Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension__ogtk.vi"/>
+				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
+				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
+				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
+				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
+				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
+				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
+				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
 				<Item Name="U8 Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/U8 Changed__ogtk.vi"/>
 				<Item Name="U16 Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/U16 Changed__ogtk.vi"/>
 				<Item Name="U32 Changed__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/comparison/comparison.llb/U32 Changed__ogtk.vi"/>
@@ -279,6 +300,7 @@
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
@@ -321,14 +343,20 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="About.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/About.vi"/>
+			<Item Name="Begin Undo Transaction.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Support/Begin Undo Transaction.vi"/>
 			<Item Name="Brute Force OCR.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/EventOCR.llb/Brute Force OCR.vi"/>
 			<Item Name="btn-back-36x36.ctl" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Controls/btn-back-36x36.ctl"/>
 			<Item Name="btn-clear-history-36x36.ctl" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Controls/btn-clear-history-36x36.ctl"/>
 			<Item Name="btn-forward-36x36.ctl" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Controls/btn-forward-36x36.ctl"/>
 			<Item Name="btn-refresh-36x36.ctl" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Controls/btn-refresh-36x36.ctl"/>
+			<Item Name="Build Menu Item for Pop-Up Menu.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Support/Build Menu Item for Pop-Up Menu.vi"/>
 			<Item Name="CaseSelect.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/CaseSelect.vi"/>
+			<Item Name="Check Is Helper Already Running (Get Queue) -- Wrapper.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Support/Check Is Helper Already Running (Get Queue) -- Wrapper.vi"/>
 			<Item Name="Check Is Helper Already Running (Get Queue).vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Support/Check Is Helper Already Running (Get Queue).vi"/>
+			<Item Name="Delete State Call.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Delete State Call.vi"/>
 			<Item Name="Dynamic Launch CaseSelect.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Dynamic Launch CaseSelect.vi"/>
+			<Item Name="End Undo Transaction.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Support/End Undo Transaction.vi"/>
+			<Item Name="Execute JKI SM Helper - Goto State.vi" Type="VI" URL="../../PopupMenu Plugin/JKI SM Helper.llb/Execute JKI SM Helper - Goto State.vi"/>
 			<Item Name="Execute JKI SM Helper.vi" Type="VI" URL="../../PopupMenu Plugin/JKI SM Helper.llb/Execute JKI SM Helper.vi"/>
 			<Item Name="First Test.vi" Type="VI" URL="../tests/First Test.vi"/>
 			<Item Name="Get All Event Strings.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/EventOCR.llb/Get All Event Strings.vi"/>
@@ -337,14 +365,19 @@
 			<Item Name="Get JKI CaseStructure Ref.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Get JKI CaseStructure Ref.vi"/>
 			<Item Name="Get State from Mouse Coords over State String.vi" Type="VI" URL="../source/Support/Get State from Mouse Coords over State String.vi"/>
 			<Item Name="Get StringConstant from VI.vi" Type="VI" URL="../tests/Test is String Constant a State Constant/Get StringConstant from VI.vi"/>
+			<Item Name="Highlight State Call.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Highlight State Call.vi"/>
 			<Item Name="Is Affected Item a JKISM.vi" Type="VI" URL="../../PopupMenu Plugin/JKI SM Helper.llb/Is Affected Item a JKISM.vi"/>
 			<Item Name="Is Child Path -- JKI State Machine Editor.vi" Type="VI" URL="../../Mass Compile/Is Child Path -- JKI State Machine Editor.vi"/>
 			<Item Name="JKI Arguments Used.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/JKI Arguments Used.vi"/>
+			<Item Name="JKI SM EDITOR - quick filter list.vi" Type="VI" URL="../../../../quick filter list Folder/JKI SM EDITOR - quick filter list.vi"/>
+			<Item Name="JKI SM Editor - Search String to Search Array.vi" Type="VI" URL="../../../../quick filter list Folder/JKI SM Editor - Search String to Search Array.vi"/>
 			<Item Name="JKI SM Helper Source.ctl" Type="VI" URL="../../PopupMenu Plugin/JKI SM Helper.llb/JKI SM Helper Source.ctl"/>
 			<Item Name="JKI SM Helper.vi" Type="VI" URL="../../PopupMenu Plugin/JKI SM Helper.llb/JKI SM Helper.vi"/>
 			<Item Name="Mass Compile - UI - .vi" Type="VI" URL="../../Mass Compile/Mass Compile - UI - .vi"/>
 			<Item Name="Mass Compile LabVIEW Tool.vi" Type="VI" URL="../../Mass Compile/Mass Compile LabVIEW Tool.vi"/>
 			<Item Name="OCR Characters.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/EventOCR.llb/OCR Characters.vi"/>
+			<Item Name="Open Search Results Dialog.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Open Search Results Dialog.vi"/>
+			<Item Name="Parse State Name from Menu Item Tag.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Support/Parse State Name from Menu Item Tag.vi"/>
 			<Item Name="PromptUserWithDefault.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/PromptUserWithDefault.vi"/>
 			<Item Name="Proxy - Dist Set LLB Caching.vi" Type="VI" URL="../../Mass Compile/Proxy - Dist Set LLB Caching.vi"/>
 			<Item Name="remove consecutive duplicates.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/remove consecutive duplicates.vi"/>
@@ -353,9 +386,13 @@
 			<Item Name="Script - get FrameNames.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Script - get FrameNames.vi"/>
 			<Item Name="ShowHideScrollBar.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/ShowHideScrollBar.vi"/>
 			<Item Name="SortAlphabetically.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/SortAlphabetically.vi"/>
+			<Item Name="State Callers.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/State Callers.vi"/>
 			<Item Name="String Constant - One Line State String Unwired.vi" Type="VI" URL="../tests/Test is String Constant a State Constant/String Constant - One Line State String Unwired.vi"/>
+			<Item Name="String Constant - One Line State String Wired to Add States.vi" Type="VI" URL="../tests/Test is String Constant a State Constant/String Constant - One Line State String Wired to Add States.vi"/>
+			<Item Name="String Constant - Outside JKI SM.vi" Type="VI" URL="../tests/Test is String Constant a State Constant/String Constant - Outside JKI SM.vi"/>
 			<Item Name="StructureTypes.ctl" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/StructureTypes.ctl"/>
 			<Item Name="Test is a JKI SM.vi" Type="VI" URL="../../PopupMenu Plugin/JKI SM Helper.llb/Test is a JKI SM.vi"/>
+			<Item Name="Test JKI SM Helper.vi" Type="VI" URL="../../../Test JKI SM Helper.vi"/>
 			<Item Name="Tree.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Tree.vi"/>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 			<Item Name="VI Tree - JKI SM Helper.vi" Type="VI" URL="../../PopupMenu Plugin/JKI SM Helper.llb/VI Tree - JKI SM Helper.vi"/>
