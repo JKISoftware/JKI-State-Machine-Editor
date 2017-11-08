@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-06-25 16:59:02" Modified_Date="2017-11-06 21:18:38" Creator="Jim Kring" Comments="" ID="a452ac8eba739bdd964794fa9b5ed4a3">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-06-25 16:59:02" Modified_Date="2017-11-07 12:18:36" Creator="Jim Kring" Comments="" ID="1bca5138e56b74ed0daaa11eb9f1bb51">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
     <Library_Version>2013.1.4.153</Library_Version>
@@ -39,7 +39,7 @@
       <Direct_Dependencies>oglib_time-4.0.0.2</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
-      <Pre-Build_VI/>
+      <Pre-Build_VI>build support\JKI SM Editor - Pre-Build Custom Action.vi</Pre-Build_VI>
       <Post-Build_VI>build support\JKI SM Editor - Post-Build Custom Action.vi</Post-Build_VI>
       <Pre-Install_VI/>
       <Post-Install_VI/>
