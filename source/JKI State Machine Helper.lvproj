@@ -613,8 +613,8 @@
 			<Item Name="Proxy - Dist Set LLB Caching.vi" Type="VI" URL="../source/Mass Compile/Proxy - Dist Set LLB Caching.vi"/>
 			<Item Name="JKI SM Editor - Fix Bad VI.vi" Type="VI" URL="../build support/JKI SM Editor - Fix Bad VI.vi"/>
 			<Item Name="JKI SM Editor - VIPC File -- List Packages__vipm_api_vipm_api.vi" Type="VI" URL="../build support/JKI SM Editor - VIPC File -- List Packages__vipm_api_vipm_api.vi"/>
-			<Item Name="JKI SM Editor - Search String to Search Array.vi" Type="VI" URL="../../quick filter list Folder/JKI SM Editor - Search String to Search Array.vi"/>
-			<Item Name="JKI SM EDITOR - quick filter list.vi" Type="VI" URL="../../quick filter list Folder/JKI SM EDITOR - quick filter list.vi"/>
+			<Item Name="JKI SM Editor - Search String to Search Array.vi" Type="VI" URL="../source/quick filter list Folder/JKI SM Editor - Search String to Search Array.vi"/>
+			<Item Name="JKI SM EDITOR - quick filter list.vi" Type="VI" URL="../source/quick filter list Folder/JKI SM EDITOR - quick filter list.vi"/>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
