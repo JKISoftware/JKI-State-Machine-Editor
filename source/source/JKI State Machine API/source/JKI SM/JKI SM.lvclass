@@ -373,7 +373,7 @@
 				<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 			</Item>
 			<Item Name="Find Macro String Constant from Frame.vi" Type="VI" URL="../Support/Find Macro String Constant from Frame.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%$!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$%!B"E:P&gt;7ZE0Q!!)E"Q!!A!!%!)!!!647&amp;D=G]A5X2S;7ZH)%.P&lt;H.U97ZU!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"B!=!!)!!"!!!!!#E2J97&gt;S97UA;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"A!'!!9!"A!(!!9!"A!)!Q!!?!!!$1A!!!E!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!!!!%!#1!!!!!</Property>
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;"!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$%!B"E:P&gt;7ZE0Q!!)E"Q!!A!!%!)!!!647&amp;D=G]A5X2S;7ZH)%.P&lt;H.U97ZU!!1!!!!=1(!!#!!!1!A!!!Z4&gt;(*$&lt;H.U)&amp;*F:GZV&lt;1!!)E"!!!(`````!!=517RM)&amp;.U=GFO:S"$&lt;WZT&gt;'&amp;O&gt;(-!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'%"Q!!A!!%!!!!!+2'FB:X*B&lt;3"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!)!!9!"A!'!!E!"A!'!!I$!!"Y!!!.#!!!#1!!!!E!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!!!!1!,!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
@@ -472,5 +472,23 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
+	</Item>
+	<Item Name="Set Macro String.vi" Type="VI" URL="../Set Macro String.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;W!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%*!=!!?!!!M'UJ,33"4&gt;'&amp;U:3".97.I;7ZF)%&amp;133ZM&gt;GRJ9AZ+3UEA5UUO&lt;(:D&lt;'&amp;T=Q!!#EJ,33"443"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E!Q`````QR.97.S&lt;S"4&gt;(*J&lt;G=!!"2!-0````]+47&amp;D=G]A4G&amp;N:1!!1%"Q!"Y!!#Q&lt;3EN*)&amp;.U982F)%VB9WBJ&lt;G5A16"*,GRW&lt;'FC$EJ,33"443ZM&gt;G.M98.T!!!*3EN*)&amp;..)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!=!#!!*!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!##!!!!B!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
+	<Item Name="Add State to Macro.vi" Type="VI" URL="../Add State to Macro.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(N!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%*!=!!?!!!M'UJ,33"4&gt;'&amp;U:3".97.I;7ZF)%&amp;133ZM&gt;GRJ9AZ+3UEA5UUO&lt;(:D&lt;'&amp;T=Q!!#EJ,33"443"P&gt;81!!&amp;=!]&gt;9[*!]!!!!"'U*F:G^S:3"P=C"":H2F=C!N,3"&amp;&lt;H6N,G.U&lt;!!T1"9!!A:#:7:P=G5&amp;17:U:8)!!"F#:7:P=G5A&lt;X)A17:U:8)`)#B#:7:P=G5J!#"!-0````]81G6G&lt;X*F)#BP=C"":H2F=CEA5X2B&gt;'5!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71$$`````$&amp;.U982F)(2P)%&amp;E:!!!&amp;%!Q`````QJ.97.S&lt;S"/97VF!!"!1(!!(A!!,"N+3UEA5X2B&gt;'5A47&amp;D;'FO:3""5%EO&lt;(:M;7)/3EN*)&amp;..,GRW9WRB=X-!!!F+3UEA5UUA;7Y!91$Q!!Q!!Q!%!!1!"1!%!!9!"!!(!!A!#1!+!!M$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!A!!!!!!!!!#!!!!!I!!!!)!!!!#!!!!!A!!!U!!!!-!!!!!!!!!!!!!!%!$!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
 	</Item>
 </LVClass>
