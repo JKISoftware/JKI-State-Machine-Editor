@@ -369,8 +369,8 @@
 			<Item Name="Is Affected Item a JKISM.vi" Type="VI" URL="../../PopupMenu Plugin/JKI SM Helper.llb/Is Affected Item a JKISM.vi"/>
 			<Item Name="Is Child Path -- JKI State Machine Editor.vi" Type="VI" URL="../../Mass Compile/Is Child Path -- JKI State Machine Editor.vi"/>
 			<Item Name="JKI Arguments Used.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/JKI Arguments Used.vi"/>
-			<Item Name="JKI SM EDITOR - quick filter list.vi" Type="VI" URL="../../../../quick filter list Folder/JKI SM EDITOR - quick filter list.vi"/>
-			<Item Name="JKI SM Editor - Search String to Search Array.vi" Type="VI" URL="../../../../quick filter list Folder/JKI SM Editor - Search String to Search Array.vi"/>
+			<Item Name="JKI SM EDITOR - quick filter list.vi" Type="VI" URL="../../quick filter list Folder/JKI SM EDITOR - quick filter list.vi"/>
+			<Item Name="JKI SM Editor - Search String to Search Array.vi" Type="VI" URL="../../quick filter list Folder/JKI SM Editor - Search String to Search Array.vi"/>
 			<Item Name="JKI SM Helper Source.ctl" Type="VI" URL="../../PopupMenu Plugin/JKI SM Helper.llb/JKI SM Helper Source.ctl"/>
 			<Item Name="JKI SM Helper.vi" Type="VI" URL="../../PopupMenu Plugin/JKI SM Helper.llb/JKI SM Helper.vi"/>
 			<Item Name="Mass Compile - UI - .vi" Type="VI" URL="../../Mass Compile/Mass Compile - UI - .vi"/>

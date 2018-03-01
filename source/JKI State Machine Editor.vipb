@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-06-25 16:59:02" Modified_Date="2017-11-07 19:58:22" Creator="Jim Kring" Comments="" ID="271778de2712a8f4cba448102e4c2cfa">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-03-01 14:50:42" Creator="Jim Kring" Comments="" ID="e76e7e74e444cf9fa4c6925275e29c00">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2013.2.1.160</Library_Version>
+    <Library_Version>2013.4.0.187</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -17,18 +17,9 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>jki_lib_state_machine &gt;= 2.0.0</External_Dependencies>
-      <External_Dependencies>oglib_appcontrol &gt;= 4.1.0.7</External_Dependencies>
-      <External_Dependencies>oglib_array &gt;= 4.1.1.14</External_Dependencies>
-      <External_Dependencies>oglib_comparison &gt;= 4.0.0.3</External_Dependencies>
-      <External_Dependencies>oglib_error &gt;= 4.2.0.23</External_Dependencies>
-      <External_Dependencies>oglib_file &gt;= 4.0.1.22</External_Dependencies>
-      <External_Dependencies>oglib_lvdata &gt;= 4.2.0.21</External_Dependencies>
-      <External_Dependencies>oglib_string &gt;= 4.1.0.12</External_Dependencies>
-      <External_Dependencies>oglib_time &gt;= 4.0.0.2</External_Dependencies>
       <Package_Conflicts>jcarmody_lib_caseselect_(quick_drop_plugin) &gt;=0.0</Package_Conflicts>
       <Package_Conflicts>jki_state_machine_helper &gt;=0.0</Package_Conflicts>
-      <Direct_Dependencies>jki_lib_state_machine-2.0.0-1</Direct_Dependencies>
+      <Direct_Dependencies>jki_lib_state_machine-4.0.0.22</Direct_Dependencies>
       <Direct_Dependencies>oglib_appcontrol-4.1.0.7</Direct_Dependencies>
       <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
       <Direct_Dependencies>oglib_comparison-4.0.0.3</Direct_Dependencies>
@@ -36,7 +27,7 @@
       <Direct_Dependencies>oglib_file-4.0.1.22</Direct_Dependencies>
       <Direct_Dependencies>oglib_lvdata-4.2.0.21</Direct_Dependencies>
       <Direct_Dependencies>oglib_string-4.1.0.12</Direct_Dependencies>
-      <Direct_Dependencies>oglib_time-4.0.0.2</Direct_Dependencies>
+      <Direct_Dependencies>oglib_time-4.0.1.3</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI>build support\JKI SM Editor - Pre-Build Custom Action.vi</Pre-Build_VI>
@@ -67,13 +58,18 @@ Using the Tool:
 - Drag and drop frames to reorganize the order
 - Right-click on items in the tree-view to rename, duplicate, delete, etc.
 - Right-click on a state string and choose Goto State Frame to jump to that frame of the JKI SM.
+- Right click on a state string or frame and choose Find Callers to find all callers of a state
+- Right-click on a bundle or unbundle by name and choose Find Data Accessors to find all accessors of the data.
 
 Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launching off point for the JKI SM Editor.</Description>
       <Copyright>Copyright (c) 2017, JKI, jcarmody</Copyright>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Editor</URL>
-      <Release_Notes>New Feature: *Search Filter* textbox
-- To use, simply type search strings (spaces between each term) and any states that match all terms will be shown (all others filtered out)</Release_Notes>
+      <Release_Notes>New Feature: *Find Data Accessors* of App Data Cluster
+- To use, right-click on a Bundle by Name or Unbundle by Name inside the JKI State Machine and choose "Find Data Accessors".
+- In the search results dialog, click a state to highlight the Bundle by Name or Unbundle by Name that is accessing the data.
+- Ctrl+G to step forward through the results, Ctrl+Shift+G to step backward through the results.
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -129,6 +125,11 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </Project_Provider>
+      <QuickDrop_Plugins>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </QuickDrop_Plugins>
       <Additional_Destination>
         <Name>PopupMenu Plugins</Name>
         <LLB>false</LLB>
@@ -242,7 +243,7 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
     </Install_Requirements>
     <LabVIEW>
       <close_labview_before_install>false</close_labview_before_install>
-      <restart_labview_after_install>false</restart_labview_after_install>
+      <restart_labview_after_install>true</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
     </LabVIEW>
     <VI_Docs>

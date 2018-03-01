@@ -47,4 +47,5 @@
 	<Item Name="Test Remove Quotes from String if Present.vi" Type="VI" URL="../Test Remove Quotes from String if Present.vi"/>
 	<Item Name="Test Parse State from Frame Name.vi" Type="VI" URL="../Test Parse State from Frame Name.vi"/>
 	<Item Name="Test Is States Constant - String Constant Outside JKI SM.vi" Type="VI" URL="../Test is String Constant a State Constant/Test Is States Constant - String Constant Outside JKI SM.vi"/>
+	<Item Name="Test Add Event Registration Category.vi" Type="VI" URL="../Test Add Event Registration Category.vi"/>
 </Library>
