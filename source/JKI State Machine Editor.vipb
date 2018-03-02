@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-03-01 14:50:42" Creator="Jim Kring" Comments="" ID="e76e7e74e444cf9fa4c6925275e29c00">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-03-02 14:51:20" Creator="Jim Kring" Comments="" ID="61152a669ad48d925020454257b31035">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2013.4.0.187</Library_Version>
+    <Library_Version>2013.4.1.191</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -69,7 +69,10 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
 - To use, right-click on a Bundle by Name or Unbundle by Name inside the JKI State Machine and choose "Find Data Accessors".
 - In the search results dialog, click a state to highlight the Bundle by Name or Unbundle by Name that is accessing the data.
 - Ctrl+G to step forward through the results, Ctrl+Shift+G to step backward through the results.
-</Release_Notes>
+
+Bugs Fixed:
+- Added support for In Place Element Cluster (Un)Bundlers
+- Fixed issue where right-click on cluster (un)bundlers not in a JKI SM were showing JKI SM right-click menu</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
