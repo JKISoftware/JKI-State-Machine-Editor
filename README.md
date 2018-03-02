@@ -28,6 +28,7 @@ You can download and install JKI State Machine Editor with VI Package Manager.
 * Right-click on a state string and choose Goto State Frame to jump to that frame of the JKI SM.
 * Navigate the JKI State Machine frames by right-clicking on a state string.
 ![2017-05-05_18-13-05](https://cloud.githubusercontent.com/assets/381432/25768708/9db4b088-31be-11e7-8616-e2250ec3e8e4.png)
+* Right-click on Unbundle and Bundle by Name nodes and choose Find Data Accessors to show a dialog listing all frames that read or write to the cluster data element you right-clicked on.
 
 ### Launching the JKI SM Editor UI
 
