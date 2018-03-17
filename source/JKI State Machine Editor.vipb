@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-03-16 11:31:27" Creator="Jim Kring" Comments="" ID="aaadd1b49974fde8cd26f09180e064e9">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-03-16 20:44:42" Creator="Jim Kring" Comments="" ID="8cb07ace89cf52cc851f3e21c75a6937">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2013.4.1.211</Library_Version>
+    <Library_Version>2013.5.0.211</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -65,14 +65,17 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
       <Copyright>Copyright (c) 2017, JKI, jcarmody</Copyright>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Editor</URL>
-      <Release_Notes>New Feature: *Find Data Accessors* of App Data Cluster
-- To use, right-click on a Bundle by Name or Unbundle by Name inside the JKI State Machine and choose "Find Data Accessors".
-- In the search results dialog, click a state to highlight the Bundle by Name or Unbundle by Name that is accessing the data.
+      <Release_Notes>New Feature: Event Structure frames are now shown beneath the *"", "Idle"* frame of the Case Structure (sort of like a Category) in same Tree View as Case Structure frames
+- Should just work as you might expect :-)
+
+New Feature: "Explore States" for State String Constant
+- To use, right-click on a State String Constant and choose "Explore States".
+- In the resulting dialog, click a state to navigate to that frame, or click on the first element to "Go Back to..." the state containing the string constant.
 - Ctrl+G to step forward through the results, Ctrl+Shift+G to step backward through the results.
 
-Bugs Fixed:
-- Added support for In Place Element Cluster (Un)Bundlers
-- Fixed issue where right-click on cluster (un)bundlers not in a JKI SM were showing JKI SM right-click menu</Release_Notes>
+Minor Tweaks:
+- Renamed right click as JKI State Machine Explorer (instead of Editor)
+- Moved all of the right-click options for a state under a submenu with the state's name (for better grouping)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
