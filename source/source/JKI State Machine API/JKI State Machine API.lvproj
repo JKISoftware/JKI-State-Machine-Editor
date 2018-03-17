@@ -16,6 +16,9 @@
 		</Item>
 		<Item Name="JKI State Machine API.lvlib" Type="Library" URL="../source/JKI State Machine API.lvlib"/>
 		<Item Name="JKI State Machine Helper - VI Tree.vi" Type="VI" URL="../../JKI State Machine Helper - VI Tree.vi"/>
+		<Item Name="Reorder Frames.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Support/Reorder Frames.vi"/>
+		<Item Name="Search for Frame in Frames.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Support/Search for Frame in Frames.vi"/>
+		<Item Name="Treat Frame Name for Dialog.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Support/Treat Frame Name for Dialog.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -278,10 +281,10 @@
 				<Item Name="Wait (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Wait (ms)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Application Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/menu/Application Menu.rtm"/>
-				<Item Name="Build State String with Arguments__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Build State String with Arguments__jki_lib_state_machine.vi"/>
+				<Item Name="Build State String with Arguments__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Build State String with Arguments__jki_lib_state_machine.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Caraya.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/Caraya.lvlib"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -317,7 +320,7 @@
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
-				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -343,6 +346,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="About.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/About.vi"/>
+			<Item Name="Before or After -- Enum.ctl" Type="VI" URL="../source/JKI SM/Typedefs/Before or After -- Enum.ctl"/>
 			<Item Name="Begin Undo Transaction.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Support/Begin Undo Transaction.vi"/>
 			<Item Name="Brute Force OCR.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/EventOCR.llb/Brute Force OCR.vi"/>
 			<Item Name="btn-back-36x36.ctl" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Controls/btn-back-36x36.ctl"/>
@@ -353,19 +357,26 @@
 			<Item Name="CaseSelect.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/CaseSelect.vi"/>
 			<Item Name="Check Is Helper Already Running (Get Queue) -- Wrapper.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Support/Check Is Helper Already Running (Get Queue) -- Wrapper.vi"/>
 			<Item Name="Check Is Helper Already Running (Get Queue).vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Support/Check Is Helper Already Running (Get Queue).vi"/>
+			<Item Name="Copy State Name to Clipboard.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Support/Copy State Name to Clipboard.vi"/>
+			<Item Name="Data Readers and Writers NEW.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Data Readers and Writers NEW.vi"/>
 			<Item Name="Delete State Call.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Delete State Call.vi"/>
 			<Item Name="Dynamic Launch CaseSelect.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Dynamic Launch CaseSelect.vi"/>
 			<Item Name="End Undo Transaction.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Support/End Undo Transaction.vi"/>
+			<Item Name="Execute JKI SM Helper - Actions.vi" Type="VI" URL="../../PopupMenu Plugin/JKI SM Helper.llb/Execute JKI SM Helper - Actions.vi"/>
 			<Item Name="Execute JKI SM Helper - Goto State.vi" Type="VI" URL="../../PopupMenu Plugin/JKI SM Helper.llb/Execute JKI SM Helper - Goto State.vi"/>
 			<Item Name="Execute JKI SM Helper.vi" Type="VI" URL="../../PopupMenu Plugin/JKI SM Helper.llb/Execute JKI SM Helper.vi"/>
+			<Item Name="Explore States Dialog.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/UIs/Explore States Dialog.vi"/>
 			<Item Name="First Test.vi" Type="VI" URL="../tests/First Test.vi"/>
+			<Item Name="Get All Case and Event Frames.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Support/Get All Case and Event Frames.vi"/>
 			<Item Name="Get All Event Strings.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/EventOCR.llb/Get All Event Strings.vi"/>
 			<Item Name="Get Chars From Pixmap.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/EventOCR.llb/Get Chars From Pixmap.vi"/>
 			<Item Name="Get Event pixmap.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/EventOCR.llb/Get Event pixmap.vi"/>
 			<Item Name="Get JKI CaseStructure Ref.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Get JKI CaseStructure Ref.vi"/>
 			<Item Name="Get State from Mouse Coords over State String.vi" Type="VI" URL="../source/Support/Get State from Mouse Coords over State String.vi"/>
 			<Item Name="Get StringConstant from VI.vi" Type="VI" URL="../tests/Test is String Constant a State Constant/Get StringConstant from VI.vi"/>
+			<Item Name="Highlight Data Accessor.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Highlight Data Accessor.vi"/>
 			<Item Name="Highlight State Call.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Highlight State Call.vi"/>
+			<Item Name="Highlight String Constant.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Highlight String Constant.vi"/>
 			<Item Name="Is Affected Item a JKISM.vi" Type="VI" URL="../../PopupMenu Plugin/JKI SM Helper.llb/Is Affected Item a JKISM.vi"/>
 			<Item Name="Is Child Path -- JKI State Machine Editor.vi" Type="VI" URL="../../Mass Compile/Is Child Path -- JKI State Machine Editor.vi"/>
 			<Item Name="JKI Arguments Used.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/JKI Arguments Used.vi"/>
@@ -376,6 +387,8 @@
 			<Item Name="Mass Compile - UI - .vi" Type="VI" URL="../../Mass Compile/Mass Compile - UI - .vi"/>
 			<Item Name="Mass Compile LabVIEW Tool.vi" Type="VI" URL="../../Mass Compile/Mass Compile LabVIEW Tool.vi"/>
 			<Item Name="OCR Characters.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/EventOCR.llb/OCR Characters.vi"/>
+			<Item Name="Open Data RW Results Dialog.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Open Data RW Results Dialog.vi"/>
+			<Item Name="Open Explore States Dialog.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Open Explore States Dialog.vi"/>
 			<Item Name="Open Search Results Dialog.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Open Search Results Dialog.vi"/>
 			<Item Name="Parse State Name from Menu Item Tag.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/Support/Parse State Name from Menu Item Tag.vi"/>
 			<Item Name="PromptUserWithDefault.vi" Type="VI" URL="../../QuickDrop Plugin/_JKI State Machine Helper/PromptUserWithDefault.vi"/>

@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="States String Constant" Type="Folder">
-		<Item Name="Get State Constant States.vi" Type="VI" URL="../Support/Get State Constant States.vi"/>
+		<Item Name="Get State Constant States.vi" Type="VI" URL="../../../../.source/JKI State Machine API/source/Support/Get State Constant States.vi"/>
 		<Item Name="Is String Constant a State Constant.vi" Type="VI" URL="../Support/Is String Constant a State Constant.vi"/>
 	</Item>
 	<Item Name="Is String Data Source Terminal Connected to Add States SubVI.vi" Type="VI" URL="../Support/Is String Data Source Terminal Connected to Add States SubVI.vi"/>
