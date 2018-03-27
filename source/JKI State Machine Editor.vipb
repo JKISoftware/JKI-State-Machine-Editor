@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-03-27 13:32:33" Creator="Jim Kring" Comments="" ID="f127744d6036dd60db74207958c02358">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-03-27 14:04:37" Creator="Jim Kring" Comments="" ID="43891b984282f1a2be62c585da78a7fc">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2013.5.0.215</Library_Version>
+    <Library_Version>2013.5.1.216</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -75,7 +75,9 @@ New Feature: "Explore States" for State String Constant
 
 Minor Tweaks:
 - Renamed right click as JKI State Machine Explorer (instead of Editor)
-- Moved all of the right-click options for a state under a submenu with the state's name (for better grouping)</Release_Notes>
+- Moved all of the right-click options for a state under a submenu with the state's name (for better grouping)
+- Fixed some quick search/filtering bugs
+- Added right-click option JKI SM Explorer tree view to Expand All and Collapse All items</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
