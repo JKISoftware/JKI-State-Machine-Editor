@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-04-06 14:08:36" Creator="Jim Kring" Comments="" ID="0bef84f6e9f57a7f6f8f5838f33e87c1">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-04-06 16:02:01" Creator="Jim Kring" Comments="" ID="9e223a988e1b8addb0713cf73b1f3349">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2013.5.4.220</Library_Version>
+    <Library_Version>2013.5.4.222</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -80,7 +80,8 @@ Minor Tweaks:
 - Added right-click option JKI SM Explorer tree view to Expand All and Collapse All items
 - Fixed issue where sometimes state strings were not recognised correctly if they were inside or wired through structures
 - Fixed issue where tree fully expands after any edit of JKI SM frame names
-- Fixed issue where clicking on a state while JKI SM is running causes errors</Release_Notes>
+- Fixed issue where clicking on a state while JKI SM is running causes errors
+- Now shows and hides the vertical scrollbar on the Explore State String dialog</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
