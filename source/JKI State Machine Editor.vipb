@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-04-10 20:31:18" Creator="Jim Kring" Comments="" ID="cf654384bf697666ea9d9e9784c52a0c">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-04-11 12:44:07" Creator="Jim Kring" Comments="" ID="bca755eadcc972ec5f264ac445fd4834">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2013.6.0.233</Library_Version>
+    <Library_Version>2013.6.1.234</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -67,7 +67,10 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Editor</URL>
       <Release_Notes>New Feature: Insert "Add State(s) to Queue" right-click menu on state string wires
 - Should just work as you might expect :-)
-</Release_Notes>
+
+Fixes and Tweaks
+- Fixed issue where category would automatically collapse in tree view when it was renamed
+- Fixed issue where Insert "Add State(s) to Queue" right-click option was showing for all wire types (not just string wires)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
