@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-04-12 16:40:10" Creator="Jim Kring" Comments="" ID="9431bfc76666fda9d668fae660a6d198">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-04-13 10:13:43" Creator="Jim Kring" Comments="" ID="87e9697a6cbd1177966b77e4fa694cb7">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2013.6.1.236</Library_Version>
+    <Library_Version>2013.6.2.237</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -69,8 +69,7 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
 - Should just work as you might expect :-)
 
 Fixes and Tweaks
-- Fixed issue where category would automatically collapse in tree view when it was renamed
-- Fixed issue where Insert "Add State(s) to Queue" right-click option was showing for all wire types (not just string wires)</Release_Notes>
+- Fixed issue where Add Dynamic Events would sometimes show error message after confirmation dialog</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
