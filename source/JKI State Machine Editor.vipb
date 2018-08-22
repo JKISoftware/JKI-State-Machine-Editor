@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-03-16 11:31:27" Creator="Jim Kring" Comments="" ID="aaadd1b49974fde8cd26f09180e064e9">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-06-19 22:08:39" Creator="Jim Kring" Comments="" ID="93e59774fecdbfd28168b74093adb537">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2013.4.1.211</Library_Version>
+    <Library_Version>2013.6.3.242</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -65,20 +65,18 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
       <Copyright>Copyright (c) 2017, JKI, jcarmody</Copyright>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Editor</URL>
-      <Release_Notes>New Feature: *Find Data Accessors* of App Data Cluster
-- To use, right-click on a Bundle by Name or Unbundle by Name inside the JKI State Machine and choose "Find Data Accessors".
-- In the search results dialog, click a state to highlight the Bundle by Name or Unbundle by Name that is accessing the data.
-- Ctrl+G to step forward through the results, Ctrl+Shift+G to step backward through the results.
+      <Release_Notes>New Feature: Insert "Add State(s) to Queue" right-click menu on state string wires
+- Should just work as you might expect :-)
 
-Bugs Fixed:
-- Added support for In Place Element Cluster (Un)Bundlers
-- Fixed issue where right-click on cluster (un)bundlers not in a JKI SM were showing JKI SM right-click menu</Release_Notes>
+Fixes and Tweaks
+- Fixed issue where Add Dynamic Events would sometimes show error message after confirmation dialog
+- Fixes for issue where sometimes LabVIEW would crash when right-click on JKI SM parts</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
-        <LLB>false</LLB>
-        <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;resource&gt;\dialog\QuickDrop\plugins</Path>
+        <LLB>true</LLB>
+        <Preserve_Hierarchy>false</Preserve_Hierarchy>
+        <Path>&lt;resource&gt;\dialog\QuickDrop\plugins\_JKI State Machine Helper.llb</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -155,7 +153,7 @@ Bugs Fixed:
       </Destination_Overrides>
       <Destination_Overrides>
         <Path>QuickDrop Plugin/JKI State Machine Helper.vi</Path>
-        <Destination>0</Destination>
+        <Destination>11</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
