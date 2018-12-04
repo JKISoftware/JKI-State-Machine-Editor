@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-08-24 18:28:23" Creator="Jim Kring" Comments="" ID="e21eeca396206745e257313b89876f39">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-06-19 22:08:39" Creator="Jim Kring" Comments="" ID="93e59774fecdbfd28168b74093adb537">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2018.0.0.245</Library_Version>
+    <Library_Version>2013.6.3.242</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -19,6 +19,7 @@
     <Package_Dependencies>
       <Package_Conflicts>jcarmody_lib_caseselect_(quick_drop_plugin) &gt;=0.0</Package_Conflicts>
       <Package_Conflicts>jki_state_machine_helper &gt;=0.0</Package_Conflicts>
+      <Direct_Dependencies>jki_lib_state_machine-4.0.0.22</Direct_Dependencies>
       <Direct_Dependencies>oglib_appcontrol-4.1.0.7</Direct_Dependencies>
       <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
       <Direct_Dependencies>oglib_comparison-4.0.0.3</Direct_Dependencies>
