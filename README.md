@@ -6,9 +6,9 @@ The JKI State Machine Editor is a tool to make it easy for developers to use the
 
 ## Get the JKI State Machine Editor
 
-The JKI State Machine Editor is now part of the JKI State Machine.
+The JKI State Machine Editor is now part of the JKI State Machine -- it's built right into the main JKI State Machine package, so there's only one thing to install.
 
-[Get the JKI State Machine](http://jki.net/state-machine)
+**[Get the JKI State Machine](http://jki.net/state-machine)**
 
 ## Quick Tutorial Video
 [![JKI State Machine Editor - Quick Tutorial](https://img.youtube.com/vi/5H0lrLXZoq8/0.jpg)](https://youtu.be/5H0lrLXZoq8 "JKI State Machine Editor - Quick Tutorial")
