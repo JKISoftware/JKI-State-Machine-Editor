@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-06-19 22:08:39" Creator="Jim Kring" Comments="" ID="93e59774fecdbfd28168b74093adb537">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-12-04 14:46:35" Creator="Jim Kring" Comments="" ID="bcd4ba615fa247d10448bb5c239e8198">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2013.6.3.242</Library_Version>
+    <Library_Version>2016.6.5.244</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -65,12 +65,8 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
       <Copyright>Copyright (c) 2017, JKI, jcarmody</Copyright>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Editor</URL>
-      <Release_Notes>New Feature: Insert "Add State(s) to Queue" right-click menu on state string wires
-- Should just work as you might expect :-)
-
-Fixes and Tweaks
-- Fixed issue where Add Dynamic Events would sometimes show error message after confirmation dialog
-- Fixes for issue where sometimes LabVIEW would crash when right-click on JKI SM parts</Release_Notes>
+      <Release_Notes>Fixes and Tweaks
+- Fixed Issue #84 (Dialog tools need a call to Request Deallocation if call "Term:Data Type" property to avoid LV crash)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
