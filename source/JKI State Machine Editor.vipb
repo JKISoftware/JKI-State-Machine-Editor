@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-12-06 09:40:54" Creator="Jim Kring" Comments="" ID="831fb02a3f3781b5213a9214c51e7983">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-06-25 16:59:02" Modified_Date="2018-12-15 13:52:28" Creator="Jim Kring" Comments="" ID="517cd89adeebf8dc27f9e2776a894028">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2016.6.6.249</Library_Version>
+    <Library_Version>2016.6.7.250</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -67,7 +67,8 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Editor</URL>
       <Release_Notes>Fixes and Tweaks
 - Fixed Issue with Find Callers never opening
-- Fixed issue with JKI SM Explorer window sometimes not closing when target BD minimized by user</Release_Notes>
+- Fixed issue with JKI SM Explorer window sometimes not closing when target BD minimized by user
+- Fixed #86 Can't open JKI SM Explorer for multiple JKI SM's on same BD</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
