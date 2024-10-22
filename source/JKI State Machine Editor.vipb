@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-06-25 16:59:02" Modified_Date="2024-10-21 14:55:54" Creator="Jim Kring" Comments="" ID="7f860218fcd798738e90d70a816c612a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-06-25 16:59:02" Modified_Date="2024-10-22 17:39:33" Creator="Jim Kring" Comments="" ID="a5a57472946d9ac51b8045d6c1f2af56">
   <Library_General_Settings>
     <Package_File_Name>JKI_State_Machine_Editor</Package_File_Name>
-    <Library_Version>2024.0.1.5</Library_Version>
+    <Library_Version>2024.0.1.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -65,7 +65,10 @@ Special thanks to Jim Carmody for open sourcing his CaseSelect tool as a launchi
       <Copyright>Copyright (c) 2017, JKI, jcarmody</Copyright>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Editor</URL>
-      <Release_Notes>Fixes and Tweaks
+      <Release_Notes>Known Issues:
+In LabVIEW 2024, changes to how right-click menu references are handled have caused the JKI State Machine Helper utilities to be inaccessible via the right-click menu. However, you can still access the JKI State Machine Helper using the Ctrl+J Quick Drop shortcut. JKI is working with NI to restore full support as soon as possible.
+
+Fixes and Tweaks
 - Fixed Right Click Menu reference race condition
 - Updated codebase to LabVIEW 2020
 - Optimized launching speed
